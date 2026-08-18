@@ -2,7 +2,7 @@
 ### Evidence from GDP per Capita and Pharmaceutical Patenting
 
 **Author:** Shashi Kulkarni
-**Affiliation:** Gokhale Institute of Politics and Economics, Pune
+
 
 ---
 
