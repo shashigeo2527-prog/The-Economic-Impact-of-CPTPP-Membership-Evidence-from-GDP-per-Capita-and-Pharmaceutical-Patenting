@@ -10,8 +10,8 @@
 
 This project estimates the causal economic effect of CPTPP (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) membership using a staggered-adoption Difference-in-Differences design. It examines two outcomes:
 
-1. **GDP per capita** — a broad test of whether trade liberalisation translated into aggregate economic gains.
-2. **Pharmaceutical patent grants** — a narrower, more targeted test, motivated by the fact that most of the 22 provisions suspended when TPP became CPTPP related to pharmaceutical IP protections (patent-term adjustment/restoration, undisclosed test data protection, expanded patentable subject matter).
+1. **GDP per capita** a broad test of whether trade liberalisation translated into aggregate economic gains.
+2. **Pharmaceutical patent grants** a narrower, more targeted test, motivated by the fact that most of the 22 provisions suspended when TPP became CPTPP related to pharmaceutical IP protections (patent-term adjustment/restoration, undisclosed test data protection, expanded patentable subject matter).
 
 ## Research Questions
 
@@ -32,8 +32,8 @@ This project estimates the causal economic effect of CPTPP (Comprehensive and Pr
 - **Control group (15):** Italy, India, Spain, Poland, Brazil, Argentina, Thailand, Colombia, Indonesia, Philippines, Germany, South Korea, France, United Kingdom.
 - **Sources:**
   - World Bank World Development Indicators (WDI) API — GDP per capita, population, merchandise trade share of GDP, FDI inflows, health expenditure per capita, R&D expenditure (% GDP), researchers per million, scientific journal articles, high-tech exports.
-  - WIPO IP Statistics Data Center — pharmaceutical and biotechnology patent grants.
-  - EPO Technology Dashboard 2025 — European patent applications by applicant origin.
+  - WIPO IP Statistics Data Center-pharmaceutical and biotechnology patent grants.
+  - EPO Technology Dashboard 2025-European patent applications by applicant origin.
   - World Bank IP indicators.
 
 ## Methodology
@@ -52,11 +52,11 @@ Standard two-period / two-way fixed-effects DiD is biased under **staggered trea
 ### GDP per capita
 - Parallel trends hold overall, though the 2019 (Vietnam) cohort shows significant pre-trends and is excluded from clean interpretation.
 - Post-treatment ATT(g,t) is statistically insignificant for every cohort.
-- Simple aggregate ATT: **0.0273**; dynamic ATT: **0.0297** — both statistically indistinguishable from zero.
+- Simple aggregate ATT: **0.0273**; dynamic ATT: **0.0297** both statistically indistinguishable from zero.
 - **Conclusion: no statistically detectable effect of CPTPP on GDP per capita.**
 
 ### Pharmaceutical patent grants
-- Overall aggregate ATT: **0.269** (SE 0.153, p = 0.079) — borderline significant at 10%, implying a ~30.9% increase (95% CI: −3.0% to +76.5%).
+- Overall aggregate ATT: **0.269** (SE 0.153, p = 0.079) borderline significant at 10%, implying a ~30.9% increase (95% CI: −3.0% to +76.5%).
 - Under a stricter, better-matched control group, the effect falls to a statistically insignificant ~16.9% increase.
 - The cleanest cohort (2018, 6 founding members, no pre-trend issues) shows **zero significant effects**, pre- or post-treatment.
 - The positive aggregate result is driven almost entirely by small, low patent-count, noisy cohorts (Vietnam, Peru, Malaysia, Brunei, Chile), where signs flip year to year.
@@ -65,7 +65,7 @@ Standard two-period / two-way fixed-effects DiD is biased under **staggered trea
 
 ## Overall Conclusion
 
-Over 2005–2024, CPTPP membership shows **no credible, robust evidence of causally improving GDP per capita or pharmaceutical patent activity** among its members. The GDP null is a genuinely clean result; the patent findings are a fragile, borderline-significant signal concentrated in low-volume, noisy cohorts rather than the best-identified (2018) cohort — providing a stronger basis for scepticism about CPTPP's short-run economic impact.
+Over 2005–2024, CPTPP membership shows **no credible, robust evidence of causally improving GDP per capita or pharmaceutical patent activity** among its members. The GDP null is a genuinely clean result; the patent findings are a fragile, borderline-significant signal concentrated in low-volume, noisy cohorts rather than the best-identified (2018) cohort providing a stronger basis for scepticism about CPTPP's short-run economic impact.
 
 ## References
 
