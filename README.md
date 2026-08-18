@@ -31,7 +31,7 @@ This project estimates the causal economic effect of CPTPP (Comprehensive and Pr
 - **Treatment group (11):** Australia, Brunei, Canada, Chile, Japan, Malaysia, Mexico, New Zealand, Peru, Singapore, Vietnam.
 - **Control group (15):** Italy, India, Spain, Poland, Brazil, Argentina, Thailand, Colombia, Indonesia, Philippines, Germany, South Korea, France, United Kingdom.
 - **Sources:**
-  - World Bank World Development Indicators (WDI) API — GDP per capita, population, merchandise trade share of GDP, FDI inflows, health expenditure per capita, R&D expenditure (% GDP), researchers per million, scientific journal articles, high-tech exports.
+  - World Bank World Development Indicators (WDI) API-GDP per capita, population, merchandise trade share of GDP, FDI inflows, health expenditure per capita, R&D expenditure (% GDP), researchers per million, scientific journal articles, high-tech exports.
   - WIPO IP Statistics Data Center-pharmaceutical and biotechnology patent grants.
   - EPO Technology Dashboard 2025-European patent applications by applicant origin.
   - World Bank IP indicators.
